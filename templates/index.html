@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatterBot-QA-SA</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-title">
+                <h1>ChatterBot-QA-SA</h1>
+                <div class="bot-status">
+                    <div class="status-indicator"></div>
+                    <span>Online</span>
+                </div>
+            </div>
+            <div class="controls">
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <div class="chat-container" id="chatContainer">
+            <!-- Messages will be added here -->
+        </div>
+
+        <div class="typing-indicator">
+            <div class="typing-dots">
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+            </div>
+        </div>
+
+        <div class="context-container">
+            <label class="context-label" for="context">Context</label>
+            <textarea id="context" class="context-input" placeholder="Enter context..."></textarea>
+        </div>
+
+        <div class="input-container">
+            <div class="input-wrapper">
+                <select id="mode" aria-label="Mode selection">
+                    <option value="qa">Question Answering</option>
+                    <option value="sentiment">Sentiment Analysis</option>
+                </select>
+                <input type="text" class="message-input" placeholder="Type your message..." aria-label="Message input">
+                <div class="action-buttons">
+                    <button class="action-button" aria-label="Add attachment">
+                        <i class="fas fa-paperclip"></i>
+                    </button>
+                    <button class="action-button" aria-label="Voice input">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                    <button class="send-button">
+                        <span>Send</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
