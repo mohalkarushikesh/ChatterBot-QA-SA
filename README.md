@@ -1,4 +1,4 @@
-# ChatterBot-QA-SA
+![image](https://github.com/user-attachments/assets/b8397835-a295-470e-9b64-7f7404e25117)# ChatterBot-QA-SA
 
 ChatterBot is a simple chatbot built using Flask and the Hugging Face Transformers library. It uses the DistilBERT model to answer questions based on a given context and can also perform sentiment analysis on user input.
 
@@ -107,7 +107,7 @@ Feel free to customize this README file as needed for your project. Let me know 
 **Input**: "I went to the park yesterday. It was a pretty average experience. There were a few people around, and the weather was okay."
 - *Context*: You decided to spend some time at the local park to enjoy the outdoors. The park was neither crowded nor empty, and the weather was moderate. Your visit was uneventful and didn't evoke strong positive or negative emotions.
 
-![{71472734-681F-43AC-9439-AD7AF09131CF}](https://github.com/user-attachments/assets/12b17dfe-1f2e-48b1-82f5-b661b762b56f)
+![{154EB68A-C170-46F5-B32B-F03AA739F55A}](https://github.com/user-attachments/assets/172d7398-57b6-46bf-85e5-36c17fe08f99)
 
 ![image](https://github.com/user-attachments/assets/2a69452c-99c6-498f-a8c8-ca4fe0f196d7)
 
