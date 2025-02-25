@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b8397835-a295-470e-9b64-7f7404e25117)# ChatterBot-QA-SA
+# ChatterBot-QA-SA
 
 ChatterBot is a simple chatbot built using Flask and the Hugging Face Transformers library. It uses the DistilBERT model to answer questions based on a given context and can also perform sentiment analysis on user input.
 
